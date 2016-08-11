@@ -50,12 +50,12 @@ def remove_absent(list_names):
 
 def get_random(list_names):
     # get random number
-    n = random.randint(0, len(list_names)-1)
+    n = random.randint(0, (len(list_names)-1))
     # get name at index
     name = list_names[n]
     # remove if used
     list_names.remove(name)
-    return name
+    return name 
 
 
 def random_names(list_names):
